@@ -1,14 +1,13 @@
 /* TEAM */
-Your title: Your name.
-Site: email, link to a contact form, etc.
+Your title: Michael Dryburgh.
+Site: michaeldryburgh@hotmail.com.
 Twitter: your Twitter username.
-Location: City, Country.
+Location: Thornton, CO., USA.
 
 /* THANKS */
-Name: name or url
+Name: http://www.graphberry.com/item/fesco-restaurant-psd-template
 
 /* SITE */
-Last update: YYYY/MM/DD 
-Standards: HTML5, CSS3,..
-Components: Modernizr, jQuery, etc.
-Software: Software used for the development
+Last update: 2017/03/20
+Standards: HTML5, CSS3,
+Software: Dreamweaver
