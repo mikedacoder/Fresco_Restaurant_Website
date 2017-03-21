@@ -17,7 +17,8 @@
 .wrapper{
 	width: 100%;
 	height: auto;
-	background: #282828;	
+	background: #282828;
+	display: block;
 }
 
 p{
@@ -25,6 +26,7 @@ p{
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
+	line-height: 28px;
 }
 a {
 	color: #FFFFFF;
@@ -33,10 +35,12 @@ a {
 
 /* Header styles */
 header{
+	position: relative;
+	display: block;
 	width: 100%;
-	height: 500px;
+	height: 650px;
 	background: url(../imgs/Table_of_food.jpg) no-repeat;
-	background-position: 0% 34%;
+	background-position: 0% 47%;
 	background-size: cover;
 }
 nav{
@@ -86,11 +90,89 @@ header h2{
 	font-size: 18px;
 	color: #FFFFFF;
 }
-.specialties {
+.specialties{
 	width: 60%;
 	margin: 3% auto 0 auto;	
 }
 .specialties p{
 	width: 50%;
 	color: #FFFFFF;
+}
+.aboutandcontact{
+	position: relative;
+	display: block;
+	width: 100%;
+	background: #FFFFFF;
+}
+.aboutus{
+	position: relative;
+	display: block;
+	float: left;
+	width: 39%;
+	margin: 7% auto 0 18%;
+	padding-right: 5%;
+	height: 625px;	
+}
+.aboutustitle{
+	text-align: center;
+	font-family: 'Yesteryear', cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;	
+	color: #bf9e7b;
+}
+.aboutus p{
+	text-align: center;
+	color: #808080;
+	padding: 5%;
+}
+.contactblock{
+	display: block;
+	width: 25%;
+	position: absolute;
+	top: -180px;
+	left: 55.5%;
+}
+.contact{
+	background: #141723;
+	padding: 7%;
+	margin-bottom: 1%;
+}
+.contacttitle{
+	padding: 1%;
+	font-family: vollkorn, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	color: #bf9e7b;
+}
+.contact h2{
+	padding: 1%;
+	margin-top: 2%;
+	font-family: raleway, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+}
+.contact p{
+	padding: 1%;		
+	color: #FFFFFF;	
+}
+.viewmap a{
+	text-decoration: underline;
+	color: #bf9e7b;
+}
+.tablereservation{
+	margin: 5% auto 3% auto;
+	width: 60%;
+	padding: 3% 0% 4% 0%;
+	border: 2px solid #bf9e7b;
+	text-align: center;
+}
+.sidebarimage{
+	background: url(../imgs/Cutting_Board.jpg) no-repeat;
+	background-size: contain;
+	height: 525px;
+	margin-top: 10%;
 }
