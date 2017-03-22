@@ -34,12 +34,11 @@ a {
 }
 
 /* Header styles */
-header{
-	position: relative;
+header{	
 	display: block;
 	width: 100%;
 	height: 650px;
-	background: url(../imgs/Table_of_food.jpg) no-repeat;
+	background: url(../imgs/Table_of_food.jpg) #282828 no-repeat;
 	background-position: 0% 47%;
 	background-size: cover;
 }
@@ -55,7 +54,8 @@ nav{
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
-	color: #FFFFFF;	
+	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
 }
 .navigation{
 	width: 50%;
@@ -79,8 +79,8 @@ nav{
 	font-weight: 400;
 	font-size: 50px;	
 	color: #bf9e7b;
+	text-shadow: 1px 1px #000000;
 }
-
 header h2{
 	width: 60%;
 	margin: 0 auto;
@@ -89,6 +89,7 @@ header h2{
 	font-weight: 400;
 	font-size: 18px;
 	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
 }
 .specialties{
 	width: 60%;
@@ -97,15 +98,19 @@ header h2{
 .specialties p{
 	width: 50%;
 	color: #FFFFFF;
+	text-shadow: 2px 2px #000000;
 }
-.aboutandcontact{
+
+/* About Us */
+.aboutandcontact{	
+	clear: both;
 	position: relative;
 	display: block;
 	width: 100%;
 	background: #FFFFFF;
+	height: 875px;
 }
-.aboutus{
-	position: relative;
+.aboutus{	
 	display: block;
 	float: left;
 	width: 39%;
@@ -120,18 +125,22 @@ header h2{
 	font-weight: 400;
 	font-size: 50px;	
 	color: #bf9e7b;
+	text-shadow: 1px 1px #000000;
 }
 .aboutus p{
 	text-align: center;
 	color: #808080;
 	padding: 5%;
 }
+
+/* Contact */
 .contactblock{
 	display: block;
 	width: 25%;
 	position: absolute;
 	top: -180px;
-	left: 55.5%;
+	right: 260px;
+	z-index: 1;
 }
 .contact{
 	background: #141723;
@@ -171,8 +180,62 @@ header h2{
 	text-align: center;
 }
 .sidebarimage{
-	background: url(../imgs/Cutting_Board.jpg) no-repeat;
+	background: url(../imgs/Cutting_Board.jpg) #FFFFFF no-repeat;
 	background-size: contain;
 	height: 525px;
 	margin-top: 10%;
+}
+
+/* Our Specialties */
+.specialtiesblock{	
+	display: block;
+	margin: 0 auto;	
+	width: 100%;
+	height: 650px;
+	background: url(../imgs/Breakfast.jpg) #282828 no-repeat;
+	background-position: contain;
+}
+.ourspecialties h1{
+	margin: 0 auto;
+	padding-top: 5%;
+	width: 40%;
+	text-align: center;
+	font-family: 'Yesteryear', cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;	
+	color: #ffffff;
+	text-shadow: 2px 2px #000000;
+}
+.ourspecialties p{
+	text-align: center;
+	color: #ffffff;
+	text-shadow: 2px 2px #000000;
+}
+.foodpics{
+	margin: 0 auto;	
+	width: 70%;	
+}
+.mealimage{
+	margin: 16% 1% 0 1%;
+	width: 23%;
+	height: 23%;
+	float: left;
+	background: #FFFFFF;
+}
+.mealimage img{
+	width: 100%;
+}
+.mealimage p{
+	color: #bf9e7b;
+	text-shadow: none;
+	padding: 2% 0 4% 0;
+}
+
+/* Our Menu */
+.menu{	
+	display: block;
+	margin: 0 auto;	
+	width: 100%;
+	height: 1000px;	
 }
