@@ -222,6 +222,7 @@ header h2{
 	height: 23%;
 	float: left;
 	background: #FFFFFF;
+	box-shadow: 1px 1px 100px #000000;
 }
 .meal1{
 	background: url(../imgs/Blueberries.jpg) no-repeat;	
@@ -241,9 +242,6 @@ header h2{
 	width: 100%;
 	height: 200px;	
 }
-.mealimage img{
-	width: 100%;	
-}
 .mealimage p{
 	color: #bf9e7b;
 	text-shadow: none;
@@ -255,6 +253,85 @@ header h2{
 	display: block;
 	margin: 0 auto;	
 	width: 100%;
-	height: 1000px;
+	height: 1575px;
 	background: #141723;
+}
+.menu h1{
+	margin: 0 auto;
+	padding-top: 5%;
+	width: 60%;
+	text-align: center;
+	font-family: 'Yesteryear', cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;	
+	color: #bf9e7b;	
+}
+.menu p{
+	color: #ffffff;
+}
+.menudescription{
+	text-align: center;		
+}
+.menu h2{
+	clear: both;
+	padding: 5%;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+	font-family: raleway, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	color: #bf9e7b;	
+}
+.menu h3{	
+	margin: 0 auto;	
+	font-family: raleway, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: #FFFFFF;	
+}
+.menu h4{	
+	font-family: raleway, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	color: #bf9e7b;	
+}
+.menuwrapper{
+	width: 65%;
+	margin: 0 auto;	
+}
+.leftside{
+	clear: both;
+	margin-left: 5%;
+	float: left;
+	width: 45%;	
+}
+.rightside{
+	margin-left: 5%;
+	float: right;
+	width: 45%;	
+}
+.meallisting{	
+	float: left;
+	padding: 4% 6% 5% 0;
+}
+.price{	
+	float: right;	
+	text-align: right;
+	padding: 13% 0 0 0;	
+}
+.viewmenu{	
+	clear: both;	
+	padding: 1%;
+	width: 15%;	
+	background: #bf9e7b; 
+	margin: 37% auto 0 auto;
+	text-align: center;
+}
+.viewmenu p{
+	color: #000000;
 }
