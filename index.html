@@ -22,7 +22,10 @@
 		<!--Call stylesheets here-->		
 		<link href="styles/main.css" rel="stylesheet" type="text/css">	
 		<script>
-			document.getElementById("date").valueAsDate = new Date()
+			window.addEventListener("load", addDate);
+			function addDate() {
+				document.getElementById("date").valueAsDate = new Date();
+			}
 		</script>
 	</head>
 
@@ -256,7 +259,7 @@
 				</div>
 				<div>
 					<label for="time">CHOOSE A TIME</label>
-					<select name="time">
+					<select name="time" id="time">
 						<option value="10:00am">10:00am</option>
 						<option value="10:30am">10:30am</option>
 						<option value="11:00am">11:00am</option>
@@ -287,7 +290,7 @@
 				</div>
 				<div>
 					<label for="numpeople">NUMBER OF PEOPLE</label>
-					<select name="numpeople">
+					<select name="numpeople" id="numpeople">
 						<option value="2people">2 People</option>
 						<option value="3people">3 People</option>
 						<option value="4people">4 People</option>
