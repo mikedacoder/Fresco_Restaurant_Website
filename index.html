@@ -246,12 +246,12 @@
 		<article class="book" id="book">
 			<h1>Book a Table</h1>
 			<p>Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
-			<form class="bookatable" name="bookatable">
-				<fieldset>
+			<form class="bookatable" name="bookatable" action="#book">
+				<div>
 					<label for="date">CHOOSE A DATE</label>
-					<input type="date" name="date" placeholder="17/02/2017">
-				</fieldset>
-				<fieldset>
+					<input type="date" name="date" id="date">
+				</div>
+				<div>
 					<label for="time">CHOOSE A TIME</label>
 					<select name="time">
 						<option value="10:00am">10:00am</option>
@@ -281,9 +281,9 @@
 						<option value="10:00pm">10:00pm</option>
 						<option value="10:30am">10:30pm</option>
 					</select>
-				</fieldset>
-				<fieldset>
-					<label for="numpeople">NUMEBR OF PEOPLE</label>
+				</div>
+				<div>
+					<label for="numpeople">NUMBER OF PEOPLE</label>
 					<select name="numpeople">
 						<option value="2people">2 People</option>
 						<option value="3people">3 People</option>
@@ -305,7 +305,8 @@
 						<option value="19people">19 People</option>
 						<option value="20people">20 People</option>
 					</select>
-				</fieldset>
+				</div>
+				<input type="submit" value="Book Now" class="booknow">
 			</form>
 		</article>
 	</div>	
